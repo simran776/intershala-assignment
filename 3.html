@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 30px;
+            position: absolute;
+            left: 13px;
+            margin-top: -5px;
+
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 43%;
+            left: 40%;
+        }
+
+        button {
+
+            width: 350px;
+            margin-bottom: 15px;
+            border: 1px solid #f79837;
+            border-radius: 7px;
+            height: 45px;
+            background-color: white;
+            font-size: medium;
+        }
+
+        span {
+            margin-left: -34px;
+        }
+
+        .btn5 {
+            margin-left: -70px;
+        }
+
+        .btn-5 {
+            margin-left: -80px;
+        }
+
+        .btn4 {
+            margin-left: -50px;
+        }
+
+        .image1 {
+            height: 100vh;
+            width: 100%;
+            object-fit: fill;
+        }
+
+        @media screen and (max-width: 650px) {
+            .login {
+                position: absolute;
+                left: 20%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="log">
+        <img class=image1 src="3.png">
+        <div class="login">
+            <h1>Login</h1>
+            <a href="new.html"> <button><img src="icon _mobile.png"><span>Enter Your Mobile Number</span></button></a>
+            <div class="btn"><button><img src="icon _fb.png"><span class="btn4">Continue with Facebook</span></button>
+            </div>
+            <div class="btn"><button><img src="icon _google.png"><span class="btn5">Continue with Google</span></button>
+            </div>
+            <div class="btn"><button><img src="icon _mail.png"><span class="btn-5">Continue with Email</span></button>
+            </div>
+            <div class="footer">
+                By Continuing , You Agree To Our<br>
+                <u>Terms of Service</u> & <u>Privacy Policy</u>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
