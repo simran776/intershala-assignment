@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+            height: 100vh;
+        }
+
+        h2 {
+            margin-bottom: 1px;
+        }
+
+        .login1 {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+
+        input {
+            width: 350px;
+            border-radius: 7px;
+            height: 30px;
+            border: 1px solid #f79837;
+            margin-top: -50px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        button {
+            width: 350px;
+            height: 30px;
+            border-radius: 7px;
+            background-color: #f79837;
+            border: none;
+            margin-top: 20px;
+        }
+
+        .mobile {
+            font-size: 15px;
+            color: #f79837;
+            margin-right: 30px;
+        }
+
+        .reset {
+            font-size: 15px;
+            color: #f79837;
+        }
+
+        .auto {
+            font-size: 13px;
+        }
+
+        @media screen and (max-width: 650px) {
+            .login1 {
+                position: absolute;
+                left: 20%;
+
+            }
+        }
+    </style>
+
+<body>
+    <div class="top">
+        <img src="4.png">
+        <div class="login1">
+            <h2>Login</h2>
+            <p>Enter your mobile number</p>
+            <input type="number">
+            <h2>Verify OTP</h2>
+            <p>OTP send in 9876542378</p>
+            <input type="number"><br>
+            <span class="mobile">Change Mobile Number</span> <span class="auto">Auto-Detect in 00:00 <span
+                    class="reset">RESEND</span>
+                <br>
+                <button type="submit">PROCEED</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
